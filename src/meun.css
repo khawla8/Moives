@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f0edea86;
+    tab-size: initial;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+.material-icons {
+    font-size: 36px;
+}
+
+ul.topnav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    left: 200px;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #8F2442;
+    color: white;
+}
+
+ul.topnav li a.active {
+    color: white;
+    background-color: #8F2442;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
